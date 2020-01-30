@@ -7,7 +7,7 @@ public class Conjured extends NormalItem {
     }
 
     @Override
-    public int updateQuality() {
+    public void updateQuality() {
 
         if (getSell_in() >= 0) {
             computeQuality(-2);
@@ -15,7 +15,6 @@ public class Conjured extends NormalItem {
             computeQuality(-4);
         }
         setSell_in();
-        return 0;
     }
 
 }

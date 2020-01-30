@@ -9,7 +9,7 @@ public class Sulfuras extends NormalItem{
     public int setSell_in(){
         return getSell_in();
     }
-    public int updateQuality(){
-        return getQuality();
+    public void updateQuality(){
+        getQuality();
     }
 }

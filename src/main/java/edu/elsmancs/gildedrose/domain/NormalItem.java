@@ -57,7 +57,7 @@ public class NormalItem {
         }
     }
 
-    public int updateQuality() {
+    public void updateQuality() {
 
         if (getSell_in() > 0) {
             computeQuality(-1);
@@ -65,6 +65,5 @@ public class NormalItem {
             computeQuality(-2);
         }
         item.setSell_in();
-        return 0;
     }
 }
