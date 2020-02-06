@@ -6,7 +6,7 @@ import org.junit.Test;
 import edu.elsmancs.gildedrose.domain.Backstage;
 
 
-public class BackstageTest {
+public class    BackstageTest {
 
     @Test
     public void crearBackstage() {
